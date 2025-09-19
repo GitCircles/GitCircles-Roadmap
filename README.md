@@ -71,16 +71,16 @@ To receive rewards, you need to create a payment address repository:
    gh repo create gitcircles-payment-address --public
    ```
 
-2. **Add Your Public Key:**
+2. **Add Your [Ergo Wallet Address](https://docs.ergoplatform.com/dev/wallet/address/address_types/) to receive tokens:**
    ```shell
    cd gitcircles-payment-address
-   echo "YOUR_SECP256K1_PUBLIC_KEY" > secp256k1.pub
-   git add secp256k1.pub
+   echo "YOUR_P2PK_PUBLIC_KEY" > P2PK.pub
+   git add P2PK.pub
    git commit -m "Add payment key"
    git push
    ```
 
-   Example key: `04a9d7ef5f3f0bbd9de...` (65 character hexadecimal)
+   Example key: `9fRAWhdxEsTcdb8PhGNrZfwqa6...` (51 character hexadecimal)
 
 3. **Keep It Updated:**
    GitCircles will **ALWAYS** use your most recent key - even if you change it while tokens are waiting!
