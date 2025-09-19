@@ -82,7 +82,9 @@ To receive rewards, you need to create a repository with a payment address:
 
    Example key: `9fRAWhdxEsTcdb8PhGNrZfwqa6...` (51 character hexadecimal)
 
-3. **Keep It Updated:**
+   **Make sure you use `main` or `master` default branch name.**
+
+4. **Keep It Updated:**
    GitCircles will **ALWAYS** use your most recent key - even if you change it while tokens are waiting!
 
 ## 📊 How Rewards Are Calculated
