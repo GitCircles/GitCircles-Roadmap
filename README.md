@@ -64,16 +64,16 @@ sequenceDiagram
 - *2-week holding period
 
 ## 💰 Setting Up Payment: Your Step-By-Step Guide
-To receive rewards, you need to create a payment address repository:
+To receive rewards, you need to create a repository with a payment address:
 
 1. **Create Your Payment Repo:**
    ```shell
-   gh repo create gitcircles-payment-address --public
+   gh repo create gitcircles-profile --public
    ```
 
 2. **Add Your [Ergo Wallet Address](https://docs.ergoplatform.com/dev/wallet/address/address_types/) to receive tokens:**
    ```shell
-   cd gitcircles-payment-address
+   cd gitcircles-profile
    echo "YOUR_P2PK_PUBLIC_KEY" > P2PK.pub
    git add P2PK.pub
    git commit -m "Add payment key"
